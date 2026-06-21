@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Test</title>
+    <link rel="stylesheet" href="2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Type & Glow</h1>
+        <p class="subtitle">Type the quote below as fast as you can!</p>
+
+        <div class="stats">
+            <div class="stat"><span>⏱️ Time</span> <span id="timer">30</span>s</div>
+            <div class="stat"><span>WPM</span> <span id="wpm">0</span></div>
+            <div class="stat"><span>🎯 Accuracy</span> <span id="accuracy">100</span>%</div>
+        </div>
+
+        <div id="quoteDisplay" class="quote-box">
+            <!-- الجملة هتظهر هنا حرف حرف -->
+        </div>
+
+        <textarea id="quoteInput" placeholder="Press 'Start' and type here..." disabled></textarea>
+
+        <div class="buttons">
+            <button id="startBtn" class="btn start">▶ Start</button>
+            <button id="resetBtn" class="btn reset">⟳ Reset</button>
+        </div>
+
+        <div id="resultMessage" class="result"></div>
+    </div>
+
+    <script src="2.js"></script>
+</body>
+</html>
